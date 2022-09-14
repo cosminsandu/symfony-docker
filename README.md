@@ -30,7 +30,9 @@ compatible with the Symfony Flex configurators
 4. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
 
 After step 3 the symfony project is installed in this project (repo)!
-There is also a [GitHub template](https://github.com/dunglas/symfony-docker/generate) that you can use to start your project.
+So use the [GitHub template](https://github.com/dunglas/symfony-docker/generate) to start your project.
+
+This project/template also contains a [GitHub Actions workflow](.github/workflows/ci.yml) that automatically runs your tests using the provided Docker containers!
 
 ## Features
 
