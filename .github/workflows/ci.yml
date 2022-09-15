@@ -22,7 +22,7 @@ jobs:
                     case $status in
                       starting) sleep 1;;
                       healthy) exit 0;;
-                      unhealthy) echo "$(docker inspect "$(docker compose ps -q php)")" exit 1;;
+                      unhealthy) echo "$(docker inspect "$(docker compose ps -q php)")"; exit 1;;
                     esac
                   done
                   exit 1
