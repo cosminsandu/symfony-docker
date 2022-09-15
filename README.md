@@ -28,6 +28,7 @@ compatible with the Symfony Flex configurators
 2. Run `docker compose build --pull --no-cache` to build fresh images
 3. Run `docker compose up` (the logs will be displayed in the current shell)
 4. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
+5. In order to install Doctrine & database, open in terminal php container and run `composer require symfony/orm-pack`. <br> This also updates docker files ([Dockerfile](Dockerfile) & [docker-compose.yml](docker-compose.yml)) for **postgres** container <br> Run step 2 & 3 to build and start the new container
 
 After step 3 the symfony project is installed in this project (repo)!
 So use the [GitHub template](https://github.com/dunglas/symfony-docker/generate) to start your project.
